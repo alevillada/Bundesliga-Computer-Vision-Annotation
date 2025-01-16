@@ -1,0 +1,6 @@
+jupyter
+ipykernel
+roboflow
+opencv-python
+supervision
+scikit-learn

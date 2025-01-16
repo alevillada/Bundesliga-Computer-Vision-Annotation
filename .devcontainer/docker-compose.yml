@@ -1,0 +1,16 @@
+services:
+  ultralytics:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    shm_size: 8gb
+    volumes:
+      - ../:/workspace:cached  
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all

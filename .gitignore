@@ -1,0 +1,24 @@
+# Ignore the following folders
+training/football-players-detection-1/
+stubs/
+output/in_development/
+models/Yolov5l/
+models/Yolov5x/
+data/
+output/
+models/
+
+# Ignore all pickle files
+*.pkl
+*.env
+
+# Ignore specific .pt files
+training/yolo11n.pt
+training/yolov5lu.pt
+training/yolov5xu.pt
+output/RESULTS/Final_Yolov5x.mp4
+
+# Ignore specific data files
+data/Video_Output.rar
+data/08fd33_4.mp4:Zone.Identifier
+data/test_output_annotation_v10_adjusted.mp4
