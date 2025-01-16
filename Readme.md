@@ -6,6 +6,12 @@ This project explores how computer vision techniques and machine learning models
 
 This project is largely an exploration on this [Main Video Resource](https://www.youtube.com/watch?v=neBZ6huolkg&t=5839s), yet it also includes general improvements/optimization that are reflected on the results. 
 
+### **Important Links:**
+Due to the size of these files, both the models folder and the output folder were stored externally in a google drive. Below are links to these files.
+
+1. [**Models:**](https://drive.google.com/drive/folders/1k538sZFJwFN_Y7gWKLCSJLqPMGQQVRNu?usp=sharing) This has multiple trained models(Yolov5l - 5x - 8x). The model selection will determine the accuracy of the results. 
+2. [**Original Video/Results:**](https://drive.google.com/drive/folders/16MLATTfb1cJCjoSzcRRsZQCiHGZ39OIH?usp=sharing) All videos are found here.
+
 ---
 
 ## Table of Contents
